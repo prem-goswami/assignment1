@@ -1,0 +1,49 @@
+.listItem {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  align-items: center;
+  justify-content: flex-start;
+  min-width: 80%;
+}
+
+p {
+  font-family: 'roboto';
+}
+
+.time {
+  color: #64748b;
+  font-size: 15px;
+  margin-right: 20px;
+}
+
+.logoImg {
+  height: 25px;
+  width: 25px;
+  margin-right: 10px;
+}
+
+.title {
+  color: black;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.domain {
+  font-size: 15px;
+  color: gray;
+}
+
+.buttonElement {
+  display: flex;
+  outline: none;
+  background-color: transparent;
+  border-width: 0px;
+  cursor: pointer;
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
